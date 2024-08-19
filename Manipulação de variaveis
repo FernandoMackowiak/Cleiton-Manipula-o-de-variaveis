@@ -1,0 +1,20 @@
+fun main() {
+    
+    val idadePessoa: Int = 25 
+    val alturaEmMetros: Double = 1.75 
+    val nomePessoa: String = "João" 
+    val eEstudante: Boolean = true 
+
+    val idadeOutraPessoa: Int = 30 
+    val somaIdades: Int = idadePessoa + idadeOutraPessoa
+    val alturaDuplicada: Double = alturaEmMetros * 2
+    val saudacao: String = "Olá, $nomePessoa!"
+
+    println("Idade da Pessoa: $idadePessoa anos")
+    println("Altura em Metros: $alturaEmMetros metros")
+    println("Nome da Pessoa: $nomePessoa")
+    println("É Estudante: $eEstudante")
+    println("Soma das Idades: $somaIdades anos")
+    println("Altura Dobrada: $alturaDuplicada metros")
+    println(saudacao)
+}
